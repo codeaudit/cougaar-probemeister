@@ -1,6 +1,6 @@
 <project name="probemeister" default="all" basedir=".">
 
-<property name="jreversepro" value="../jreversepro/jreversepro-1.4.2a-src"/>
+<property name="jreversepro" value="../../probemeister-20040924/jreversepro/jreversepro-1.4.2a-src"/>
 <property name="build" value="build"/>
 <property name="jar" value="lib/probemeister.jar"/>
 <property name="zip" value="probemeister.zip"/>
@@ -24,6 +24,7 @@
                        <include name="diag.pml*"/>
 	      </fileset>
         </delete>        
+        <delete dir="bin/temp"/>
 </target>
 
 <target name="compile" depends="delete">
