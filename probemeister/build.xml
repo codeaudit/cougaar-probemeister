@@ -1,0 +1,78 @@
+<project name="probemeister" default="all" basedir=".">
+
+<property name="jreversepro" value="../jreversepro/jreversepro-1.4.2a-src"/>
+<property name="build" value="build"/>
+<property name="jar" value="lib/probemeister.jar"/>
+<property name="zip" value="probemeister.zip"/>
+<property name="lib" value="lib"/>
+<property name="src" value="src"/>
+<property name="examples" value="examples"/>
+
+<path id="libs">
+      <pathelement location="lib/lark.jar"/>
+      <pathelement location="${jreversepro}/lib/jreversepro.jar"/>
+      <pathelement location="lib/bcel5.jar"/>
+</path>
+
+<target name="delete">
+        <delete dir="${build}"/>
+        <delete dir="${staging}"/>
+        <delete file="${jar}"/>
+        <delete file="${zip}"/>
+        <delete>
+              <fileset dir="bin">
+                       <include name="diag.pml*"/>
+	      </fileset>
+        </delete>        
+</target>
+
+<target name="compile" depends="delete">
+        <mkdir dir="${build}"/>
+        <javac deprecation="true" 
+               debug="true" 
+               optimize="false" 
+               srcdir="${src}" 
+               destdir="${build}">
+               <classpath refid="libs"/>
+        </javac>
+</target>
+
+<target name="jar" depends="compile">
+        <jar jarfile="${jar}" baseDir="${build}"/>
+        <delete dir="${build}"/>
+</target>
+
+<target name="create_zip" depends="jar">
+        <mkdir dir="staging/lib"/>
+        <mkdir dir="staging/configs"/>
+        <copy file="${jar}" todir="staging/lib"/>
+        <copy todir="staging/lib">
+              <fileset dir="lib/"/>
+        </copy>
+        <copy todir="staging/configs">
+              <fileset dir="configs/"/>
+        </copy>
+        <zip zipfile="${zip}" basedir="staging"/>
+        <delete dir="staging"/>
+</target>
+
+<target name="clean" depends="delete">
+        <delete>
+    	      <fileset dir="${examples}">
+                       <include name="**/*.class"/>
+  	      </fileset>
+        </delete>        
+</target>
+    
+<target name="compile_example">
+        <javac srcdir="${examples}" 
+               destdir="${examples}">
+        </javac>
+</target>
+
+<target name="all" depends="clean,create_zip,compile_example"/>
+
+</project>
+
+
+

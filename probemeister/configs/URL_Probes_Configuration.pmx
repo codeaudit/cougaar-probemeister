@@ -1,0 +1,88 @@
+<InstrumentationSet name="CurrentSet" desc="CurrentSet of Instrumentation actions">
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.net.URL"
+    time="1024500106123" >
+       <Attr name="probeID"  value="ObjectEventStub1"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URLStreamHandler;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+          <Attr name="evtName"  value="URL"/>
+          <Attr name="msg"  value="Success"/>
+          <Attr name="evtSubName"  value="URLInit"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitURLEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.net.URL"
+    time="1024500143447" >
+       <Attr name="probeID"  value="ObjectEventStub2"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+          <Attr name="evtName"  value="URL"/>
+          <Attr name="msg"  value="Success"/>
+          <Attr name="evtSubName"  value="URLInit"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitURLEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.net.URL"
+    time="1024500210283" >
+       <Attr name="probeID"  value="ObjectEventStub3"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="openConnection"/>
+       <Attr name="targetMethodSig"  value="()Ljava/net/URLConnection;"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+          <Attr name="evtName"  value="URL"/>
+          <Attr name="msg"  value="Reading contents"/>
+          <Attr name="evtSubName"  value="openConnection"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitURLEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.net.MalformedURLException"
+    time="1024500507320" >
+       <Attr name="probeID"  value="ArgEventStub0"/>
+       <Attr name="probeDesc"  value="This stub probe passes the methods arguments, event type, subtype, a msg, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassMethodArgsEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/lang/String;)V"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Lcom/objs/surveyor/probemeister/probe/GenericArgumentArray;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitSienaEventWithArgs"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+
+</InstrumentationSet>

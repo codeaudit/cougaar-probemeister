@@ -1,0 +1,201 @@
+<InstrumentationSet name="CurrentSet" desc="CurrentSet of Instrumentation actions">
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024453886943" >
+       <Attr name="probeID"  value="ObjectEventStub2"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/lang/String;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="FileInit"/>           
+		<Attr name="evtSubName"  value="Success"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024453905159" >
+       <Attr name="probeID"  value="ObjectEventStub3"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/lang/String;Ljava/lang/String;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="FileInit"/>           
+		<Attr name="evtSubName"  value="Success"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024453917467" >
+       <Attr name="probeID"  value="ObjectEventStub4"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/io/File;Ljava/lang/String;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="FileInit"/>           
+		<Attr name="evtSubName"  value="Success"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024453927782" >
+       <Attr name="probeID"  value="ObjectEventStub5"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="&lt;init&gt;"/>
+       <Attr name="targetMethodSig"  value="(Ljava/net/URI;)V"/>
+       <Attr name="byteOffset"  value="-1"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="FileInit"/>           
+		<Attr name="evtSubName"  value="Success"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024454045050" >
+       <Attr name="probeID"  value="ObjectEventStub7"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="delete"/>
+       <Attr name="targetMethodSig"  value="()Z"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="delete"/>           
+		<Attr name="evtSubName"  value="Status Unknown"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024454066782" >
+       <Attr name="probeID"  value="ObjectEventStub8"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="createNewFile"/>
+       <Attr name="targetMethodSig"  value="()Z"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="CreateNewFile"/>           
+		<Attr name="evtSubName"  value="Status Unknown"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024454093610" >
+       <Attr name="probeID"  value="ObjectEventStub9"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="deleteOnExit"/>
+       <Attr name="targetMethodSig"  value="()V"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="deleteOnExit"/>           
+		<Attr name="evtSubName"  value="Status Unknown"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024454123183" >
+       <Attr name="probeID"  value="ObjectEventStub10"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="mkdir"/>
+       <Attr name="targetMethodSig"  value="()Z"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="mkdir"/>           
+		<Attr name="evtSubName"  value="Status Unknown"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+    <InstrumentationRecordSerialized
+    type="com.objs.surveyor.probemeister.instrumentation.InstrumentationRecord_Stub"
+    targetClass="java.io.File"
+    time="1024454143912" >
+       <Attr name="probeID"  value="ObjectEventStub11"/>
+       <Attr name="probeDesc"  value="This stub probe passes 'this', event type, subtype, a msg, vmName, ProbeID, and thread to a plug"/>
+       <Attr name="probeType"  value="com.objs.surveyor.probemeister.bytecoder.Stub_PassObjectEvent"/>
+       <Attr name="targetMethod"  value="renameTo"/>
+       <Attr name="targetMethodSig"  value="(Ljava/io/File;)Z"/>
+       <Attr name="byteOffset"  value="0"/>
+        <Group type="Params">
+              <Attr name="evtName"  value="File"/>           
+		<Attr name="msg"  value="renameTo"/>           
+		<Attr name="evtSubName"  value="Status Unknown"/>
+        </Group>
+        <Group type="Plug">
+          <Attr name="desc"  value="These ProbePlugs emit events to Siena"/>
+          <Attr name="sig"  value="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Thread;Ljava/lang/Object;)V"/>
+          <Attr name="className"  value="com.objs.surveyor.probemeister.probe.siena.PLUG_GenericEventToSiena"/>
+          <Attr name="methName"  value="PP_emitFileEvent"/>
+        </Group>
+    </InstrumentationRecordSerialized>
+
+</InstrumentationSet>
