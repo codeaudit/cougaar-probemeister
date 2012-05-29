@@ -93,9 +93,9 @@ public class ProbeCatalog {
 //System.out.println("ProbeCatalog -- Looking for: "+_pt);
 
         
-        Enumeration enum = entries.elements();
-        while (enum.hasMoreElements()) {
-            Entry e = (Entry)enum.nextElement();
+        Enumeration enm = entries.elements();
+        while (enm.hasMoreElements()) {
+            Entry e = (Entry)enm.nextElement();
             ProbeType pt = e.pt;
 //System.out.println("    ProbeCatalog -- Saw: "+pt.getName());
             if ( pt.getName().equals(_pt))
@@ -106,9 +106,9 @@ public class ProbeCatalog {
  
     public static boolean isStub(String _pt) {
         
-        Enumeration enum = entries.elements();
-        while (enum.hasMoreElements()) {
-            Entry e = (Entry)enum.nextElement();
+        Enumeration enm = entries.elements();
+        while (enm.hasMoreElements()) {
+            Entry e = (Entry)enm.nextElement();
             ProbeType pt = e.pt;
             if ( pt.getName().equals(_pt)) 
                 return e.stub;
@@ -118,10 +118,10 @@ public class ProbeCatalog {
  
     public static String[] getProbeTypeNames() {        
         String[] p = new String[entries.size()];
-        Enumeration enum = entries.elements();
+        Enumeration enm = entries.elements();
         int i=0;
-        while (enum.hasMoreElements()) {
-            Entry e = (Entry)enum.nextElement();
+        while (enm.hasMoreElements()) {
+            Entry e = (Entry)enm.nextElement();
             ProbeType pt = e.pt;
             p[i++] = pt.getName();
         }

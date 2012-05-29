@@ -900,9 +900,9 @@ public class MultiJVM extends javax.swing.JFrame
 
     private VMData findVMByName(String _name) {
         
-        java.util.Enumeration enum = waitingVMs.elements();
-        while (enum.hasMoreElements()) {
-            VMData vmd = (VMData)enum.nextElement();
+        java.util.Enumeration enm = waitingVMs.elements();
+        while (enm.hasMoreElements()) {
+            VMData vmd = (VMData)enm.nextElement();
             if (vmd.getName().equals(_name))  //found it
                 return vmd;
         }

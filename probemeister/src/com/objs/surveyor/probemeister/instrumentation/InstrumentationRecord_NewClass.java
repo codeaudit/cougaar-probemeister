@@ -195,20 +195,20 @@ public class InstrumentationRecord_NewClass implements InstrumentationRecord {
             //Hashtable jarfiles = loadClassesFromJar(_jar);
             if (jarfiles == null) return false;
             
-            //java.util.Enumeration enum = jarfiles.keys();
+            //java.util.Enumeration enm = jarfiles.keys();
             
             boolean ok = predefineClasses(jarnames, _tvmc, _bkpt);
             if (!ok) {
                 com.objs.surveyor.probemeister.Log.out.warning("defineFromJar:: predefine failed.");
                 return false;   
             }
-            //while (enum.hasMoreElements()) {
+            //while (enm.hasMoreElements()) {
             for (int i=0; i<jarfiles.size(); i++) {    
 
                 String clsName = (String)jarnames.get(i);
                 ByteArrayInputStream is = (ByteArrayInputStream)jarfiles.get(i);
 
-                //String clsName = (String)enum.nextElement();
+                //String clsName = (String)enm.nextElement();
                 //ByteArrayInputStream is = (ByteArrayInputStream)jarfiles.get(clsName);
                     
                     

@@ -101,9 +101,9 @@ public class ClassTreeNode extends DefaultMutableTreeNode  {
       
     int realIndex    = -1;
     int visibleIndex = -1;
-    Enumeration enum = children.elements();      
-    while (enum.hasMoreElements()) {
-        ClassTreeNode node = (ClassTreeNode)enum.nextElement();
+    Enumeration enm = children.elements();      
+    while (enm.hasMoreElements()) {
+        ClassTreeNode node = (ClassTreeNode)enm.nextElement();
 
         if (this.nodeType() == ClassTreeNode.ROOT || _filterState == ClassTreeModel.FILTER_PROBES ) {           
             if (!node.hideWhenFilterIsOn(_filterState)) 
@@ -122,9 +122,9 @@ public class ClassTreeNode extends DefaultMutableTreeNode  {
 
 
 /*
-    Enumeration enum = children.elements();      
-    while (enum.hasMoreElements()) {
-      ClassTreeNode node = (ClassTreeNode)enum.nextElement();
+    Enumeration enm = children.elements();      
+    while (enm.hasMoreElements()) {
+      ClassTreeNode node = (ClassTreeNode)enm.nextElement();
       if (!node.hideWhenFilterIsOn(_filterState)) {
     	visibleIndex++;
       }
@@ -155,9 +155,9 @@ public class ClassTreeNode extends DefaultMutableTreeNode  {
     //if filter probes, then independently check each node
     if (this.nodeType() == ClassTreeNode.ROOT || _filterState == ClassTreeModel.FILTER_PROBES ) {           
         int count = 0;
-        Enumeration enum = children.elements();      
-        while (enum.hasMoreElements()) {
-            ClassTreeNode node = (ClassTreeNode)enum.nextElement();
+        Enumeration enm = children.elements();      
+        while (enm.hasMoreElements()) {
+            ClassTreeNode node = (ClassTreeNode)enm.nextElement();
             if (!node.hideWhenFilterIsOn(_filterState)) {
                 node.setVisibility(true);
 	            count++;
